@@ -3,33 +3,28 @@ local shape = {}
 local make_ok = {}
 local anzahl = {}
 
---function mymillwork.register_all(mat, desc, image, groups, craft)
-
 minetest.register_node("mybricks:machine", {
 	description = "Brick Machine",
-	tiles = {
-		"mybricks_machine.png"
-		},
+	tiles = {"mybricks_machine.png"},
 	drawtype = "nodebox",
 	paramtype = "light",
 	paramtype2 = "facedir",
-	groups = {oddly_breakable_by_hand=2, cracky=3, dig_immediate=1},
+	groups = {cracky=2},
 	node_box = {
 		type = "fixed",
 		fixed = {
-			{-0.5, -0.1875, -0.5, 0.5, 0.0625, 0.5}, -- NodeBox1
-			{-0.5, -0.1875, -0.5, 0.5, 0.5, -0.3125}, -- NodeBox2
-			{-0.5, -0.5, -0.5, -0.3125, -0.1875, -0.3125}, -- NodeBox3
-			{0.3125, -0.5, -0.5, 0.5, -0.1875, -0.3125}, -- NodeBox4
-			{0.3125, -0.5, 0.3125, 0.5, -0.1875, 0.5}, -- NodeBox5
-			{-0.5, -0.5, 0.3125, -0.3125, -0.1875, 0.5}, -- NodeBox6
-			{-0.5, -0.1875, -0.5, -0.3125, 0.5, 0.5}, -- NodeBox7
-			{-0.5, -0.1875, 0.3125, 0.5, 0.5, 0.5}, -- NodeBox8
-			{0.3125, -0.1875, -0.5, 0.5, 0.5, 0.5}, -- NodeBox9
+			{-0.5, -0.1875, -0.5, 0.5, 0.0625, 0.5},
+			{-0.5, -0.1875, -0.5, 0.5, 0.5, -0.3125}, 
+			{-0.5, -0.5, -0.5, -0.3125, -0.1875, -0.3125}, 
+			{0.3125, -0.5, -0.5, 0.5, -0.1875, -0.3125}, 
+			{0.3125, -0.5, 0.3125, 0.5, -0.1875, 0.5},
+			{-0.5, -0.5, 0.3125, -0.3125, -0.1875, 0.5}, 
+			{-0.5, -0.1875, -0.5, -0.3125, 0.5, 0.5}, 
+			{-0.5, -0.1875, 0.3125, 0.5, 0.5, 0.5}, 
+			{0.3125, -0.1875, -0.5, 0.5, 0.5, 0.5}, 
 		}
 	},
 
--- Set owner of Millwork Machine
 	after_place_node = function(pos, placer)
 	local meta = minetest.env:get_meta(pos);
 			meta:set_string("owner",  (placer:get_player_name() or ""));
@@ -56,19 +51,14 @@ on_construct = function(pos)
 		"label[7,1.5;Input:]"..
 		"label[7,3.5;Output:]"..
 		"label[0,0;Choose Brick Stye:]"..
-
 		"label[1.5,1.5;Brick]"..
 		"image_button[1.5,2;1,1;mybricks_mach1.png;brick; ]"..
-
 		"label[4,1.5;Squares]"..
 		"image_button[4,2;1,1;mybricks_mach2.png;square; ]"..
-
 		"label[1.5,3.5;Small Squares]"..
 		"image_button[1.5,4;1,1;mybricks_mach3.png;square_sm; ]"..
-
 		"label[4,3.5;Tiles]"..
 		"image_button[4,4;1,1;mybricks_mach4.png;tile; ]"..
-
 		"list[current_player;main;1,7;8,4;]")
 	meta:set_string("infotext", "Brick Machine")
 	local inv = meta:get_inventory()
@@ -80,15 +70,12 @@ on_receive_fields = function(pos, formname, fields, sender)
 	local meta = minetest.env:get_meta(pos)
 	local inv = meta:get_inventory()
 
--- REGISTER MILLING PROGRAMMS
------------------------------
 if fields["brick"] 
 or fields["square"]
 or fields["square_sm"]
 or fields["tile"]
 then
 
---Brick-----------------------------------------
 	if fields["brick"] then
 		make_ok = "0"
 		anzahl = "1"
@@ -97,8 +84,6 @@ then
 			return
 		end
 	end
-
---Square----------------------------------------------
 
 	if fields["square"] then
 		make_ok = "0"
@@ -109,8 +94,6 @@ then
 		end
 	end
 
---Small Square--------------------------------------------------
-
 	if fields["square_sm"] then
 		make_ok = "0"
 		anzahl = "1"
@@ -119,8 +102,6 @@ then
 			return
 		end
 	end
-
---Tile----------------------------------------------
 
 	if fields["tile"] then
 		make_ok = "0"
@@ -133,7 +114,9 @@ then
 
 		local ingotstack = inv:get_stack("ingot", 1)
 		local resstack = inv:get_stack("res", 1)
-----------------------------------------------------------------------
+----------------------------------------------------------------------------------
+--register nodes
+----------------------------------------------------------------------------------
 		if ingotstack:get_name()=="default:sandstone" then
 				material = "default_sandstone"
 				make_ok = "1"
@@ -206,9 +189,7 @@ then
 			end
 			ingotstack:take_item()
 			inv:set_stack("ingot",1,ingotstack)
-		end            
-
-	
+		end            	
 end
 end
 
