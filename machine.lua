@@ -20,26 +20,14 @@ minetest.register_node("mybricks:machine", {
 	node_box = {
 		type = "fixed",
 		fixed = {
---[[
-			{-0.5, -0.1875, -0.5, 0.5, 0.0625, 0.5},
-			{-0.5, -0.1875, -0.5, 0.5, 0.5, -0.3125}, 
-			{-0.5, -0.5, -0.5, -0.3125, -0.1875, -0.3125}, 
-			{0.3125, -0.5, -0.5, 0.5, -0.1875, -0.3125}, 
-			{0.3125, -0.5, 0.3125, 0.5, -0.1875, 0.5},
-			{-0.5, -0.5, 0.3125, -0.3125, -0.1875, 0.5}, 
-			{-0.5, -0.1875, -0.5, -0.3125, 0.5, 0.5}, 
-			{-0.5, -0.1875, 0.3125, 0.5, 0.5, 0.5}, 
-			{0.3125, -0.1875, -0.5, 0.5, 0.5, 0.5}, 
---]]
-
-			{-0.5, 0.4375, -0.5, 0.5, 0.5, 0.5}, -- NodeBox1
-			{0.375, -0.5, -0.5, 0.5, 0.5, -0.375}, -- NodeBox2
-			{-0.5, -0.5, -0.5, -0.375, 0.5, -0.375}, -- NodeBox3
-			{-0.5, -0.5, -0.5, 0.5, 0.0625, 0.5}, -- NodeBox4
-			{-0.5, -0.5, 0.375, -0.375, 0.5, 0.5}, -- NodeBox5
-			{0.375, -0.5, 0.375, 0.5, 0.5, 0.5}, -- NodeBox6
-			{-0.0625, 0.0625, -0.25, 0, 0.1875, 0.25}, -- NodeBox7
-			{-0.0625, 0.0625, -0.125, 0, 0.25, 0.125}, -- NodeBox8
+			{-0.5, 0.4375, -0.5, 0.5, 0.5, 0.5}, 
+			{0.375, -0.5, -0.5, 0.5, 0.5, -0.375}, 
+			{-0.5, -0.5, -0.5, -0.375, 0.5, -0.375},
+			{-0.5, -0.5, -0.5, 0.5, 0.0625, 0.5},
+			{-0.5, -0.5, 0.375, -0.375, 0.5, 0.5}, 
+			{0.375, -0.5, 0.375, 0.5, 0.5, 0.5}, 
+			{-0.0625, 0.0625, -0.25, 0, 0.1875, 0.25}, 
+			{-0.0625, 0.0625, -0.125, 0, 0.25, 0.125}, 
 		}
 	},
 	selection_box = {
@@ -75,27 +63,20 @@ on_construct = function(pos)
 		"label[7,1.5;Input:]"..
 		"label[7,3.5;Output:]"..
 		"label[0,0;Choose Brick Stye:]"..
---		"label[1,0.5;Brick]"..
 		"image_button[1,1;1,1;mybricks_mach1.png;brick; ]"..
 		"image_button[1,2;1,1;mybricks_mach8.png;smbrick; ]"..
 		"image_button[1,3;1,1;mybricks_mach7.png;tbrick; ]"..
---		"label[2.5,2.5;Squares]"..
 		"image_button[2.5,1;1,1;mybricks_mach4.png;tile; ]"..
 		"image_button[2.5,2;1,1;mybricks_mach2.png;square; ]"..
 		"image_button[2.5,3;1,1;mybricks_mach3.png;square_sm; ]"..
---		"label[1.5,4.5;Split]"..
 		"image_button[4,1;1,1;mybricks_mach5.png;split; ]"..
 		"image_button[4,2;1,1;mybricks_mach6.png;vsplit; ]"..
-
---		"label[1,0.5;Brick]"..
 		"image_button[1,4;1,1;mybricks_mach9.png;brickw; ]"..
 		"image_button[1,5;1,1;mybricks_mach10.png;smbrickw; ]"..
 		"image_button[1,6;1,1;mybricks_mach11.png;tbrickw; ]"..
---		"label[2.5,2.5;Squares]"..
 		"image_button[2.5,4;1,1;mybricks_mach12.png;tilew; ]"..
 		"image_button[2.5,5;1,1;mybricks_mach13.png;squarew; ]"..
 		"image_button[2.5,6;1,1;mybricks_mach14.png;square_smw; ]"..
---		"label[1.5,4.5;Split]"..
 		"image_button[4,4;1,1;mybricks_mach15.png;splitw; ]"..
 		"image_button[4,5;1,1;mybricks_mach16.png;vsplitw; ]"..
 		"list[current_player;main;1,7;8,4;]")
