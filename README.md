@@ -1,8 +1,15 @@
+*****************************************************************
+*								*
+*	      This mod was made by the MaxBat Team		*
+*								*
+*	     Team includes - MaxCohen And Don Batman		*
+*								*
+*	        This mod is licenced under WTFPL		*
+*								*
+*****************************************************************
+
 mybricks
 ========
-
-Licenced as WTFPL.
-Created by Don
 Code for machine based off of Noncubic by yves_de_beck
 
 mybricks adds an overlay to nodes. Turns them into bricks, squares, small squares, tiles, split stone and verticle split stone.

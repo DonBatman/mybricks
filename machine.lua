@@ -38,24 +38,25 @@ minetest.register_node("mybricks:machine", {
 	},
 
 	after_place_node = function(pos, placer)
-	local meta = minetest.env:get_meta(pos);
+	local meta = minetest.get_meta(pos);
 			meta:set_string("owner",  (placer:get_player_name() or ""));
 			meta:set_string("infotext",  "Brick Machine (owned by " .. (placer:get_player_name() or "") .. ")");
 		end,
 
 can_dig = function(pos,player)
-	local meta = minetest.env:get_meta(pos);
+	local meta = minetest.get_meta(pos);
 	local inv = meta:get_inventory()
-	if not inv:is_empty("ingot") then
-		return false
-	elseif not inv:is_empty("res") then
-		return false
+	if player:get_player_name() == meta:get_string("owner") and
+	inv:is_empty("ingot") and
+	inv:is_empty("res") then
+		return true
+	else
+	return false
 	end
-	return true
 end,
 
 on_construct = function(pos)
-	local meta = minetest.env:get_meta(pos)
+	local meta = minetest.get_meta(pos)
 	meta:set_string("formspec", "invsize[10,11;]"..
 		"background[-0.15,-0.25;10.40,11.75;mybricks_background.png]"..
 		"list[current_name;ingot;7,2;1,1;]"..
@@ -87,7 +88,7 @@ on_construct = function(pos)
 end,
 
 on_receive_fields = function(pos, formname, fields, sender)
-	local meta = minetest.env:get_meta(pos)
+	local meta = minetest.get_meta(pos)
 	local inv = meta:get_inventory()
 
 if fields["brick"] 
@@ -263,40 +264,40 @@ local mat_tab = {
 		{"default:jungleleaves",	"default_jungleleaves"},
 		{"default:pine_needles",	"default_pine_needles"},
 		{"default:brick",		"default_brick"},
---		{"default:bronzeblock",		"default_bronze_block"},
---		{"default:cactus",		"default_cactus"},
+		{"default:bronzeblock",		"default_bronze_block"},
+		{"default:cactus",		"default_cactus"},
 		{"default:clay",		"default_clay"},
---		{"default:coalblock",		"default_coal_block"},
+		{"default:coalblock",		"default_coal_block"},
 		{"default:cobble",		"default_cobble"},
---		{"default:copperblock",		"default_copper_block"},
+		{"default:copperblock",		"default_copper_block"},
 		{"default:desert_cobble",	"default_desert_cobble"},
---		{"default:desert_sand",		"default_desert_sand"},
+		{"default:desert_sand",		"default_desert_sand"},
 		{"default:desert_stone",	"default_desert_stone"},
---		{"default:diamondblock",	"default_diamond_block"},
---		{"default:dirt",		"default_dirt"},
---		{"default:glass",		"default_glass"},
---		{"default:goldblock",		"default_gold_block"},
---		{"default:gravel",		"default_gravel"},
---		{"default:ice",			"default_ice"},
+		{"default:diamondblock",	"default_diamond_block"},
+		{"default:dirt",		"default_dirt"},
+		{"default:glass",		"default_glass"},
+		{"default:goldblock",		"default_gold_block"},
+		{"default:gravel",		"default_gravel"},
+		{"default:ice",			"default_ice"},
 		{"default:jungletree",		"default_jungletree"},
 		{"default:junglewood",		"default_junglewood"},
---		{"default:lava_source",		"default_lava"},
---		{"default:mese",		"default_mese"},
+		{"default:lava_source",		"default_lava"},
+		{"default:mese",		"default_mese"},
 		{"default:mossycobble",		"default_mossycobble"},
---		{"default:obsidian",		"default_obsidian"},
---		{"default:obsidian_glass",	"default_obsidian_glass"},
---		{"default:obsidianbrick",	"default_obsidian_brick"},
+		{"default:obsidian",		"default_obsidian"},
+		{"default:obsidian_glass",	"default_obsidian_glass"},
+		{"default:obsidianbrick",	"default_obsidian_brick"},
 		{"default:pinetree",		"default_pinetree"},
 		{"default:pinewood",		"default_pinewood"},
---		{"default:sand",		"default_sand"},
+		{"default:sand",		"default_sand"},
 		{"default:sandstone",		"default_sandstone"},
 		{"default:sandstonebrick",	"default_sandstone_brick"},
---		{"default:snowblock",		"default_snow"},
---		{"default:steelblock",		"default_steel_block"},
+		{"default:snowblock",		"default_snow"},
+		{"default:steelblock",		"default_steel_block"},
 		{"default:stone",		"default_stone"},
 		{"default:stonebrick",		"default_stone_brick"},
 		{"default:tree",		"default_tree"},
---		{"default:water_source",	"default_water"},
+		{"default:water_source",	"default_water"},
 		{"default:wood",		"default_wood"},
 		{"farming:straw",		"farming_straw"},
 		{"wool:black",			"wool_black"},
@@ -406,7 +407,9 @@ for i in ipairs (mat_tab) do
 
 end
 ----------------------------------------------------------------------
-		if make_ok == "1" then
+		
+	if sender:get_player_name() == meta:get_string("owner") and
+	   make_ok == "1" then
 			local give = {}
 			for i = 0, anzahl-1 do
 				give[i+1]=inv:add_item("res",shape..mater)
