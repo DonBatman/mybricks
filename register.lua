@@ -78,7 +78,7 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"normal"
 	)
 --]]
---[[
+---[[
 mybricks.register_block(--material, description, image, groups, craft item
 	"default_wood", 
 	"Wood", 
@@ -88,17 +88,37 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"normal"
 	)
 --]]
---[[
+---[[
 mybricks.register_block(--material, description, image, groups, craft item
-	"default_pinewood", 
+	"default_pine_wood", 
 	"Pine Wood", 
-	"default_pinewood.png",
+	"default_pine_wood.png",
 	{cracky = 1, oddly_breakable_by_hand = 1,not_in_creative_inventory=1},
-	"default:pinewood",
+	"default:pine_wood",
 	"normal"
 	)
 --]]
---[[
+---[[
+mybricks.register_block(--material, description, image, groups, craft item
+	"default_aspen_wood", 
+	"Aspen Wood", 
+	"default_aspen_wood.png",
+	{cracky = 1, oddly_breakable_by_hand = 1,not_in_creative_inventory=1},
+	"default:aspen_wood",
+	"normal"
+	)
+--]]
+---[[
+mybricks.register_block(--material, description, image, groups, craft item
+	"default_acacia_wood", 
+	"Acacia Wood", 
+	"default_acacia_wood.png",
+	{cracky = 1, oddly_breakable_by_hand = 1,not_in_creative_inventory=1},
+	"default:acacia_wood",
+	"normal"
+	)
+--]]
+---[[
 mybricks.register_block(--material, description, image, groups, craft item
 	"default_dirt", 
 	"Dirt", 
@@ -128,7 +148,7 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"normal"
 	)
 --]]
---[[
+---[[
 mybricks.register_block(--material, description, image, groups, craft item
 	"default_coal_block", 
 	"Coal Block", 
@@ -168,7 +188,7 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"normal"
 	)
 --]]
---[[
+---[[
 mybricks.register_block(--material, description, image, groups, craft item
 	"default_glass", 
 	"Glass", 
@@ -188,7 +208,7 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"normal"
 	)
 --]]
---[[
+---[[
 mybricks.register_block(--material, description, image, groups, craft item
 	"default_gravel", 
 	"Gravel", 
@@ -218,7 +238,7 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"normal"
 	)
 --]]
---[[
+---[[
 mybricks.register_block(--material, description, image, groups, craft item
 	"default_junglewood", 
 	"Jungle Wood", 
@@ -258,7 +278,7 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"normal"
 	)
 --]]
---[[
+---[[
 mybricks.register_block(--material, description, image, groups, craft item
 	"default_obsidian", 
 	"Obsidian", 
@@ -290,11 +310,31 @@ mybricks.register_block(--material, description, image, groups, craft item
 --]]
 --[[
 mybricks.register_block(--material, description, image, groups, craft item
-	"default_pinetree", 
+	"default_pine_tree", 
 	"Pine Tree", 
-	"default_pinetree.png",
+	"default_pine_tree.png",
 	{cracky = 1, oddly_breakable_by_hand = 1,not_in_creative_inventory=1},
-	"default:pinetree",
+	"default:pine_tree",
+	"normal"
+	)
+--]]
+--[[
+mybricks.register_block(--material, description, image, groups, craft item
+	"default_aspen_tree", 
+	"Aspen Tree", 
+	"default_aspen_tree.png",
+	{cracky = 1, oddly_breakable_by_hand = 1,not_in_creative_inventory=1},
+	"default:aspen_tree",
+	"normal"
+	)
+--]]
+--[[
+mybricks.register_block(--material, description, image, groups, craft item
+	"default_acacia_tree", 
+	"Acacia Tree", 
+	"default_acacia_tree.png",
+	{cracky = 1, oddly_breakable_by_hand = 1,not_in_creative_inventory=1},
+	"default:acacia_tree",
 	"normal"
 	)
 --]]
@@ -308,7 +348,7 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"normal"
 	)
 --]]
----[[
+--[[
 mybricks.register_block(--material, description, image, groups, craft item
 	"default_snow", 
 	"Snow", 
