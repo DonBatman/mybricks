@@ -4,7 +4,7 @@
 *								*
 *	     Team includes - MaxCohen And Don Batman		*
 *								*
-*	        This mod is licenced under WTFPL		*
+*	        This mod is licenced under DWYWPL		*
 *								*
 *****************************************************************
 
