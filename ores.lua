@@ -1,6 +1,6 @@
 
 
-mybricks.register_block(--material, description, image, groups, craft item
+mybricks.register_block(
 	"slate", 
 	"Slate", 
 	"ores_slate.png",
@@ -8,7 +8,7 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"ores:slate",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+mybricks.register_block(
 	"silt", 
 	"Silt", 
 	"ores_silt.png",
@@ -16,7 +16,7 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"ores:silt",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+mybricks.register_block(
 	"shale", 
 	"Shale", 
 	"ores_shale.png",
@@ -24,7 +24,7 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"ores:shale",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+mybricks.register_block(
 	"schist", 
 	"Schist", 
 	"ores_schist.png",
@@ -32,7 +32,7 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"ores:schist",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+mybricks.register_block(
 	"redsandstone", 
 	"Red Sandstone", 
 	"ores_redsandstone.png",
@@ -40,7 +40,7 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"ores:redsandstone",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+mybricks.register_block(
 	"gneiss", 
 	"Gneiss", 
 	"ores_gneiss.png",
@@ -48,7 +48,7 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"ores:gneiss",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+mybricks.register_block(
 	"basalt", 
 	"Basalt", 
 	"ores_basalt.png",
@@ -56,7 +56,7 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"ores:basalt",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+mybricks.register_block(
 	"granite", 
 	"Granite", 
 	"ores_granite.png",
@@ -64,7 +64,7 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"ores:granite",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+mybricks.register_block(
 	"marble", 
 	"Marble", 
 	"ores_marble.png",

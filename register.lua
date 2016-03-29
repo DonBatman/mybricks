@@ -1,5 +1,5 @@
----[[
-mybricks.register_block(--material, description, image, groups, craft item
+
+mybricks.register_block(
 	"default_sandstone", 
 	"Sandstone", 
 	"default_sandstone.png",
@@ -7,19 +7,8 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"default:sandstone",
 	"normal"
 	)
---]]
---[[
-mybricks.register_block(--material, description, image, groups, craft item
-	"default_desert_sand", 
-	"Desert Sand", 
-	"default_desert_sand.png",
-	{cracky = 1, oddly_breakable_by_hand = 1,not_in_creative_inventory=1},
-	"default:desert_sand",
-	"normal"
-	)
---]]
----[[
-mybricks.register_block(--material, description, image, groups, craft item
+
+mybricks.register_block(
 	"default_clay", 
 	"Clay", 
 	"default_clay.png",
@@ -27,9 +16,8 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"default:clay",
 	"normal"
 	)
---]]
----[[
-mybricks.register_block(--material, description, image, groups, craft item
+
+mybricks.register_block(
 	"default_cobble", 
 	"Cobble", 
 	"default_cobble.png",
@@ -37,9 +25,8 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"default:cobble",
 	"normal"
 	)
---]]
----[[
-mybricks.register_block(--material, description, image, groups, craft item
+
+mybricks.register_block(
 	"default_stone", 
 	"Stone", 
 	"default_stone.png",
@@ -47,29 +34,8 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"default:stone",
 	"normal"
 	)
---]]
---[[
-mybricks.register_block(--material, description, image, groups, craft item
-	"default_cactus", 
-	"Cactus", 
-	"default_cactus_side.png",
-	{cracky = 1, oddly_breakable_by_hand = 1,not_in_creative_inventory=1},
-	"default:cactus",
-	"normal"
-	)
---]]
---[[
-mybricks.register_block(--material, description, image, groups, craft item
-	"default_sand", 
-	"Sand", 
-	"default_sand.png",
-	{cracky = 1, oddly_breakable_by_hand = 1,not_in_creative_inventory=1},
-	"default:sand",
-	"normal"
-	)
---]]
----[[
-mybricks.register_block(--material, description, image, groups, craft item
+
+mybricks.register_block(
 	"default_desert_stone", 
 	"Desert Stone", 
 	"default_desert_stone.png",
@@ -77,9 +43,8 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"default:desert_stone",
 	"normal"
 	)
---]]
----[[
-mybricks.register_block(--material, description, image, groups, craft item
+
+mybricks.register_block(
 	"default_wood", 
 	"Wood", 
 	"default_wood.png",
@@ -87,9 +52,8 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"default:wood",
 	"normal"
 	)
---]]
----[[
-mybricks.register_block(--material, description, image, groups, craft item
+
+mybricks.register_block(
 	"default_pine_wood", 
 	"Pine Wood", 
 	"default_pine_wood.png",
@@ -97,9 +61,8 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"default:pine_wood",
 	"normal"
 	)
---]]
----[[
-mybricks.register_block(--material, description, image, groups, craft item
+
+mybricks.register_block(
 	"default_aspen_wood", 
 	"Aspen Wood", 
 	"default_aspen_wood.png",
@@ -107,9 +70,8 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"default:aspen_wood",
 	"normal"
 	)
---]]
----[[
-mybricks.register_block(--material, description, image, groups, craft item
+
+mybricks.register_block(
 	"default_acacia_wood", 
 	"Acacia Wood", 
 	"default_acacia_wood.png",
@@ -117,9 +79,8 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"default:acacia_wood",
 	"normal"
 	)
---]]
----[[
-mybricks.register_block(--material, description, image, groups, craft item
+
+mybricks.register_block(
 	"default_dirt", 
 	"Dirt", 
 	"default_dirt.png",
@@ -127,29 +88,8 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"default:dirt",
 	"normal"
 	)
---]]
---[[
-mybricks.register_block(--material, description, image, groups, craft item
-	"default_brick", 
-	"Brick", 
-	"default_brick.png",
-	{cracky = 1, oddly_breakable_by_hand = 1,not_in_creative_inventory=1},
-	"default:brick",
-	"normal"
-	)
---]]
---[[
-mybricks.register_block(--material, description, image, groups, craft item
-	"default_bronze_block", 
-	"Bronze Block", 
-	"default_bronze_block.png",
-	{cracky = 1, oddly_breakable_by_hand = 1,not_in_creative_inventory=1},
-	"default:bronzeblock",
-	"normal"
-	)
---]]
----[[
-mybricks.register_block(--material, description, image, groups, craft item
+
+mybricks.register_block(
 	"default_coal_block", 
 	"Coal Block", 
 	"default_coal_block.png",
@@ -157,19 +97,8 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"default:coalblock",
 	"normal"
 	)
---]]
---[[
-mybricks.register_block(--material, description, image, groups, craft item
-	"default_copper_block", 
-	"Copper Block", 
-	"default_copper_block.png",
-	{cracky = 1, oddly_breakable_by_hand = 1,not_in_creative_inventory=1},
-	"default:copperblock",
-	"normal"
-	)
---]]
----[[
-mybricks.register_block(--material, description, image, groups, craft item
+
+mybricks.register_block(
 	"default_desert_cobble", 
 	"Desert Cobble", 
 	"default_desert_cobble.png",
@@ -177,19 +106,8 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"default:desert_cobble",
 	"normal"
 	)
---]]
---[[
-mybricks.register_block(--material, description, image, groups, craft item
-	"default_diamond_block", 
-	"Diamond Block", 
-	"default_diamond_block.png",
-	{cracky = 1, oddly_breakable_by_hand = 1,not_in_creative_inventory=1},
-	"default:diamondblock",
-	"normal"
-	)
---]]
----[[
-mybricks.register_block(--material, description, image, groups, craft item
+
+mybricks.register_block(
 	"default_glass", 
 	"Glass", 
 	"default_glass.png",
@@ -197,19 +115,8 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"default:glass",
 	"glasslike"
 	)
---]]
---[[
-mybricks.register_block(--material, description, image, groups, craft item
-	"default_gold_block", 
-	"Gold Block", 
-	"default_gold_block.png",
-	{cracky = 1, oddly_breakable_by_hand = 1,not_in_creative_inventory=1},
-	"default:goldblock",
-	"normal"
-	)
---]]
----[[
-mybricks.register_block(--material, description, image, groups, craft item
+
+mybricks.register_block(
 	"default_gravel", 
 	"Gravel", 
 	"default_gravel.png",
@@ -217,29 +124,8 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"default:gravel",
 	"normal"
 	)
---]]
---[[
-mybricks.register_block(--material, description, image, groups, craft item
-	"default_ice", 
-	"Ice", 
-	"default_ice.png",
-	{cracky = 1, oddly_breakable_by_hand = 1,not_in_creative_inventory=1},
-	"default:ice",
-	"normal"
-	)
---]]
---[[
-mybricks.register_block(--material, description, image, groups, craft item
-	"default_jungletree", 
-	"Jungle Tree", 
-	"default_jungletree.png",
-	{cracky = 1, oddly_breakable_by_hand = 1,not_in_creative_inventory=1},
-	"default:jungletree",
-	"normal"
-	)
---]]
----[[
-mybricks.register_block(--material, description, image, groups, craft item
+
+mybricks.register_block(
 	"default_junglewood", 
 	"Jungle Wood", 
 	"default_junglewood.png",
@@ -247,29 +133,8 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"default:junglewood",
 	"normal"
 	)
---]]
---[[
-mybricks.register_block(--material, description, image, groups, craft item
-	"default_lava", 
-	"Lava", 
-	"default_lava.png",
-	{cracky = 1, oddly_breakable_by_hand = 1,not_in_creative_inventory=1},
-	"default:lava_source",
-	"normal"
-	)
---]]
---[[
-mybricks.register_block(--material, description, image, groups, craft item
-	"default_mese", 
-	"Mese", 
-	"default_mese_block.png",
-	{cracky = 1, oddly_breakable_by_hand = 1,not_in_creative_inventory=1},
-	"default:mese",
-	"normal"
-	)
---]]
----[[
-mybricks.register_block(--material, description, image, groups, craft item
+
+mybricks.register_block(
 	"default_mossycobble", 
 	"Mossy Cobble", 
 	"default_mossycobble.png",
@@ -277,9 +142,8 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"default:mossycobble",
 	"normal"
 	)
---]]
----[[
-mybricks.register_block(--material, description, image, groups, craft item
+
+mybricks.register_block(
 	"default_obsidian", 
 	"Obsidian", 
 	"default_obsidian.png",
@@ -287,119 +151,8 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"default:obsidian",
 	"normal"
 	)
---]]
---[[
-mybricks.register_block(--material, description, image, groups, craft item, drawtype
-	"default_obsidian_glass", 
-	"Obsidian Glass", 
-	"default_obsidian_glass.png",
-	{cracky = 1, oddly_breakable_by_hand = 1,not_in_creative_inventory=1},
-	"default:obsidian_glass",
-	"glasslike"
-	)
---]]
---[[
-mybricks.register_block(--material, description, image, groups, craft item
-	"default_obsidian_brick", 
-	"Obsidian Brick", 
-	"default_obsidian_brick.png",
-	{cracky = 1, oddly_breakable_by_hand = 1,not_in_creative_inventory=1},
-	"default:obsidianbrick",
-	"normal"
-	)
---]]
---[[
-mybricks.register_block(--material, description, image, groups, craft item
-	"default_pine_tree", 
-	"Pine Tree", 
-	"default_pine_tree.png",
-	{cracky = 1, oddly_breakable_by_hand = 1,not_in_creative_inventory=1},
-	"default:pine_tree",
-	"normal"
-	)
---]]
---[[
-mybricks.register_block(--material, description, image, groups, craft item
-	"default_aspen_tree", 
-	"Aspen Tree", 
-	"default_aspen_tree.png",
-	{cracky = 1, oddly_breakable_by_hand = 1,not_in_creative_inventory=1},
-	"default:aspen_tree",
-	"normal"
-	)
---]]
---[[
-mybricks.register_block(--material, description, image, groups, craft item
-	"default_acacia_tree", 
-	"Acacia Tree", 
-	"default_acacia_tree.png",
-	{cracky = 1, oddly_breakable_by_hand = 1,not_in_creative_inventory=1},
-	"default:acacia_tree",
-	"normal"
-	)
---]]
---[[
-mybricks.register_block(--material, description, image, groups, craft item
-	"default_sandstone_brick", 
-	"Sandstone Brick", 
-	"default_sandstone_brick.png",
-	{cracky = 1, oddly_breakable_by_hand = 1,not_in_creative_inventory=1},
-	"default:sandstonebrick",
-	"normal"
-	)
---]]
---[[
-mybricks.register_block(--material, description, image, groups, craft item
-	"default_snow", 
-	"Snow", 
-	"default_snow.png",
-	{cracky = 1, oddly_breakable_by_hand = 1,not_in_creative_inventory=1},
-	"default:snowblock",
-	"normal"
-	)
---]]
---[[
-mybricks.register_block(--material, description, image, groups, craft item
-	"default_steel_block", 
-	"Steel Block", 
-	"default_steel_block.png",
-	{cracky = 1, oddly_breakable_by_hand = 1,not_in_creative_inventory=1},
-	"default:steelblock",
-	"normal"
-	)
---]]
---[[
-mybricks.register_block(--material, description, image, groups, craft item
-	"default_stone_brick", 
-	"Stone Brick", 
-	"default_stone_brick.png",
-	{cracky = 1, oddly_breakable_by_hand = 1,not_in_creative_inventory=1},
-	"default:stonebrick",
-	"normal"
-	)
---]]
---[[
-mybricks.register_block(--material, description, image, groups, craft item
-	"default_tree", 
-	"Tree", 
-	"default_tree.png",
-	{cracky = 1, oddly_breakable_by_hand = 1,not_in_creative_inventory=1},
-	"default:tree",
-	"normal"
-	)
---]]
---[[
-mybricks.register_block(--material, description, image, groups, craft item
-	"default_water", 
-	"Water", 
-	"default_water.png",
-	{cracky = 1, oddly_breakable_by_hand = 1,not_in_creative_inventory=1},
-	"default:water_source",
-	"normal"
-	)
---]]
----[[
-mybricks.register_block(--material, description, image, groups, craft item
+
+mybricks.register_block(
 	"farming_straw", 
 	"Straw", 
 	"farming_straw.png",
@@ -407,14 +160,10 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"farming:straw",
 	"normal"
 	)
---]]
 
-
------------------------------------------------------------------------------------------------------
 --wool
 
-
-mybricks.register_block(--material, description, image, groups, craft item
+mybricks.register_block(
 	"wool_white", 
 	"White Wool", 
 	"wool_white.png",
@@ -422,7 +171,7 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"wool:white",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+mybricks.register_block(
 	"wool_black", 
 	"Black Wool", 
 	"wool_black.png",
@@ -430,7 +179,7 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"wool:black",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+mybricks.register_block(
 	"wool_blue", 
 	"Blue Wool", 
 	"wool_blue.png",
@@ -438,7 +187,7 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"wool:blue",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+mybricks.register_block(
 	"wool_brown", 
 	"Brown Wool", 
 	"wool_brown.png",
@@ -446,7 +195,7 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"wool:brown",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+mybricks.register_block(
 	"wool_cyan", 
 	"Cyan Wool", 
 	"wool_cyan.png",
@@ -454,7 +203,7 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"wool:cyan",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+mybricks.register_block(
 	"wool_dark_green", 
 	"Dark Green Wool", 
 	"wool_dark_green.png",
@@ -462,7 +211,7 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"wool:dark_green",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+mybricks.register_block(
 	"wool_dark_grey", 
 	"Dark Grey Wool", 
 	"wool_dark_grey.png",
@@ -470,7 +219,7 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"wool:dark_grey",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+mybricks.register_block(
 	"wool_green", 
 	"Green Wool", 
 	"wool_green.png",
@@ -478,7 +227,7 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"wool:green",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+mybricks.register_block(
 	"wool_grey", 
 	"Grey Wool", 
 	"wool_grey.png",
@@ -486,7 +235,7 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"wool:grey",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+mybricks.register_block(
 	"wool_magenta", 
 	"Magenta Wool", 
 	"wool_magenta.png",
@@ -494,7 +243,7 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"wool:magenta",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+mybricks.register_block(
 	"wool_orange", 
 	"Orange Wool", 
 	"wool_orange.png",
@@ -502,7 +251,7 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"wool:orange",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+mybricks.register_block(
 	"wool_pink", 
 	"Pink Wool", 
 	"wool_pink.png",
@@ -510,7 +259,7 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"wool:pink",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+mybricks.register_block(
 	"wool_red", 
 	"Red Wool", 
 	"wool_red.png",
@@ -518,7 +267,7 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"wool:red",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+mybricks.register_block(
 	"wool_violet", 
 	"Violet Wool", 
 	"wool_violet.png",
@@ -526,7 +275,7 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"wool:violet",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+mybricks.register_block(
 	"wool_yellow", 
 	"Yellow Wool", 
 	"wool_yellow.png",

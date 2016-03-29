@@ -5,7 +5,6 @@ minetest.register_node("mybricks:brick_"..mat, {
 	description = desc.." Brick",
 	drawtype = drawtype,
 	tiles = {
-		
 		image.."^mybricks_pattern13.png",
 		image.."^mybricks_pattern13.png^[transformR90",
 		image.."^mybricks_pattern1.png",
@@ -24,7 +23,6 @@ minetest.register_node("mybricks:smbrick_"..mat, {
 	description = desc.." Small Brick",
 	drawtype = drawtype,
 	tiles = {
-		
 		image.."^mybricks_pattern11.png",
 		image.."^mybricks_pattern12.png",
 		image.."^mybricks_pattern9.png",
@@ -43,7 +41,6 @@ minetest.register_node("mybricks:tbrick_"..mat, {
 	description = desc.." Tiny Brick",
 	drawtype = drawtype,
 	tiles = {
-		
 		image.."^mybricks_pattern14.png",
 		image.."^mybricks_pattern15.png",
 		image.."^mybricks_pattern10.png^[transformFX",
@@ -127,13 +124,10 @@ minetest.register_node("mybricks:brick_vsplit_"..mat, {
 	sounds = default.node_sound_stone_defaults(),
 })
 
-------------------------------------------------------------------------------------------
-
 minetest.register_node("mybricks:brickw_"..mat, {
 	description = desc.." Brick",
 	drawtype = drawtype,
 	tiles = {
-		
 		image.."^mybricks_pattern13_w.png",
 		image.."^mybricks_pattern13_w.png^[transformR90",
 		image.."^mybricks_pattern1_w.png",
@@ -152,7 +146,6 @@ minetest.register_node("mybricks:smbrickw_"..mat, {
 	description = desc.." Small Brick",
 	drawtype = drawtype,
 	tiles = {
-		
 		image.."^mybricks_pattern11_w.png",
 		image.."^mybricks_pattern12_w.png",
 		image.."^mybricks_pattern9_w.png",
@@ -171,7 +164,6 @@ minetest.register_node("mybricks:tbrickw_"..mat, {
 	description = desc.." Tiny Brick",
 	drawtype = drawtype,
 	tiles = {
-		
 		image.."^mybricks_pattern14_w.png",
 		image.."^mybricks_pattern15_w.png",
 		image.."^mybricks_pattern10_w.png",
@@ -254,4 +246,5 @@ minetest.register_node("mybricks:brick_vsplitw_"..mat, {
 	groups = mygroups,
 	sounds = default.node_sound_stone_defaults(),
 })
+
 end
