@@ -1,5 +1,5 @@
 
-mybricks.register_block(--material, description, image, groups, craft item
+mybricks.register_block(
 	"hardened_clay", 
 	"Hardened Clay", 
 	"hardened_clay.png",
@@ -7,7 +7,8 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"hardenedclay:hardened_clay",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+
+mybricks.register_block(
 	"hardened_clay_white", 
 	"Hardened Clay White", 
 	"hardened_clay_white.png",
@@ -15,7 +16,8 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"hardenedclay:hardened_clay_white",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+
+mybricks.register_block(
 	"hardened_clay_black", 
 	"Hardened Clay Black", 
 	"hardened_clay_black.png",
@@ -23,7 +25,8 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"hardenedclay:hardened_clay_black",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+
+mybricks.register_block(
 	"hardened_clay_light_blue", 
 	"Hardened Clay Light Blue", 
 	"hardened_clay_light_blue.png",
@@ -31,7 +34,8 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"hardenedclay:hardened_clay_light_blue",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+
+mybricks.register_block(
 	"hardened_clay_green", 
 	"Hardened Clay Green", 
 	"hardened_clay_green.png",
@@ -39,7 +43,8 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"hardenedclay:hardened_clay_green",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+
+mybricks.register_block(
 	"hardened_clay_red", 
 	"Hardened Clay Red", 
 	"hardened_clay_red.png",
@@ -47,7 +52,8 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"hardenedclay:hardened_clay_red",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+
+mybricks.register_block(
 	"hardened_clay_light_grey", 
 	"Hardened Clay Light Grey", 
 	"hardened_clay_light_grey.png",
@@ -55,7 +61,8 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"hardenedclay:hardened_clay_light_grey",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+
+mybricks.register_block(
 	"hardened_clay_violet", 
 	"Hardened Clay Violet", 
 	"hardened_clay_violet.png",
@@ -63,7 +70,8 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"hardenedclay:hardened_clay_violet",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+
+mybricks.register_block(
 	"hardened_clay_lime", 
 	"Hardened Clay Lime", 
 	"hardened_clay_lime.png",
@@ -71,7 +79,8 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"hardenedclay:hardened_clay_lime",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+
+mybricks.register_block(
 	"hardened_clay_magenta", 
 	"Hardened Clay Magenta", 
 	"hardened_clay_magenta.png",
@@ -79,7 +88,8 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"hardenedclay:hardened_clay_maagenta",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+
+mybricks.register_block(
 	"hardened_clay_orange", 
 	"Hardened Clay Orange", 
 	"hardened_clay_orange.png",
@@ -87,7 +97,8 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"hardenedclay:hardened_clay_orange",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+
+mybricks.register_block(
 	"hardened_clay_brown", 
 	"Hardened Clay Brown", 
 	"hardened_clay_brown.png",
@@ -95,7 +106,8 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"hardenedclay:hardened_clay_brown",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+
+mybricks.register_block(
 	"hardened_clay_blue", 
 	"Hardened Clay Blue", 
 	"hardened_clay_blue.png",
@@ -103,7 +115,8 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"hardenedclay:hardened_clay_blue",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+
+mybricks.register_block(
 	"hardened_clay_yellow", 
 	"Hardened Clay Yellow", 
 	"hardened_clay_yellow.png",
@@ -111,7 +124,8 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"hardenedclay:hardened_clay_yellow",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+
+mybricks.register_block(
 	"hardened_clay_pink", 
 	"Hardened Clay Pink", 
 	"hardened_clay_pink.png",
@@ -119,7 +133,8 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"hardenedclay:hardened_clay_pink",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+
+mybricks.register_block(
 	"hardened_clay_cyan", 
 	"Hardened Clay Cyan", 
 	"hardened_clay_cyan.png",
@@ -127,7 +142,8 @@ mybricks.register_block(--material, description, image, groups, craft item
 	"hardenedclay:hardened_clay_cyan",
 	"normal"
 	)
-mybricks.register_block(--material, description, image, groups, craft item
+
+mybricks.register_block(
 	"hardened_clay_grey", 
 	"Hardened Clay Grey", 
 	"hardened_clay_grey.png",
