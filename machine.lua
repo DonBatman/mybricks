@@ -351,15 +351,15 @@ minetest.register_node("mybricks:machine", {
 					{"hardenedclay:hardened_clay_cyan",			"hardened_clay_cyan"},
 					{"hardenedclay:hardened_clay_grey",			"hardened_clay_grey"},
 
-					{"ores:slate",			"slate"},
-					{"ores:silt",			"silt"},
-					{"ores:shale",			"shale"},
-					{"ores:schist",			"schist"},
-					{"ores:redsandstone",	"redsandstone"},
-					{"ores:gneiss",			"gneiss"},
-					{"ores:basalt",			"basalt"},
-					{"ores:granite",		"granite"},
-					{"ores:marble",			"marble"},
+					{"myores:slate",			"slate"},
+					{"myores:shale",			"shale"},
+					{"myores:schist",			"schist"},
+					{"myores:gneiss",			"gneiss"},
+					{"myores:basalt",			"basalt"},
+					{"myores:granite",			"granite"},
+					{"myores:marble",			"marble"},
+					{"myores:chromium",			"chromium"},
+					{"myores:manganese",		"manganese"},
 				}
 
 			for i in ipairs (mat_tab) do
