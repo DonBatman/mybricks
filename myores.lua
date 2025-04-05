@@ -7,8 +7,10 @@ mybricks.register_block(
 	"normal"
 	)
 
+--mat, desc, image, mygroups, craft, drawtype
+
 mybricks.register_block(
-	"myores_shale", 
+	"shale", 
 	"Shale", 
 	"myores_shale.png",
 	{cracky = 1, oddly_breakable_by_hand = 1, not_in_creative_inventory=1},
@@ -17,7 +19,7 @@ mybricks.register_block(
 	)
 
 mybricks.register_block(
-	"myores_schist", 
+	"schist", 
 	"Schist", 
 	"myores_schist.png",
 	{cracky = 1, oddly_breakable_by_hand = 1, not_in_creative_inventory=1},
@@ -26,7 +28,7 @@ mybricks.register_block(
 	)
 
 mybricks.register_block(
-	"myores_gneiss", 
+	"gneiss", 
 	"Gneiss", 
 	"myores_gneiss.png",
 	{cracky = 1, oddly_breakable_by_hand = 1, not_in_creative_inventory=1},
@@ -35,7 +37,7 @@ mybricks.register_block(
 	)
 
 mybricks.register_block(
-	"myores_granite", 
+	"granite", 
 	"Granite", 
 	"myores_granite.png",
 	{cracky = 1, oddly_breakable_by_hand = 1, not_in_creative_inventory=1},
@@ -44,7 +46,7 @@ mybricks.register_block(
 	)
 
 mybricks.register_block(
-	"myores_basalt", 
+	"basalt", 
 	"Basalt", 
 	"myores_basalt.png",
 	{cracky = 1, oddly_breakable_by_hand = 1, not_in_creative_inventory=1},
@@ -53,7 +55,7 @@ mybricks.register_block(
 	)
 
 mybricks.register_block(
-	"myores_marble", 
+	"marble", 
 	"Marble", 
 	"myores_marble.png",
 	{cracky = 1, oddly_breakable_by_hand = 1, not_in_creative_inventory=1},
@@ -62,7 +64,7 @@ mybricks.register_block(
 	)
 
 mybricks.register_block(
-	"myores_chromium", 
+	"chromium", 
 	"Chromium", 
 	"myores_chromium.png",
 	{cracky = 1, oddly_breakable_by_hand = 1, not_in_creative_inventory=1},
@@ -71,7 +73,7 @@ mybricks.register_block(
 	)
 
 mybricks.register_block(
-	"myores_manganese", 
+	"manganese", 
 	"Manganese", 
 	"myores_manganese.png",
 	{cracky = 1, oddly_breakable_by_hand = 1, not_in_creative_inventory=1},
