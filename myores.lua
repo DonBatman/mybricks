@@ -80,7 +80,7 @@ mybricks.register_block(
 	"myores:manganese",
 	"normal"
 	)
-myflooring.register_block(
+mybricks.register_block(
 	"chalcopyrite", 
 	"Chalcopyrite", 
 	"myores_chalcopyrite.png",
@@ -88,7 +88,7 @@ myflooring.register_block(
 	"myores:chalcopyrite",
 	"normal"
 	)
-myflooring.register_block(
+mybricks.register_block(
 	"quartz", 
 	"Quartz", 
 	"myores_quartz.png",
