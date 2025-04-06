@@ -333,24 +333,6 @@ minetest.register_node("mybricks:machine", {
 					{"moretrees:rubber_tree_planks",	"rubber_tree"},
 					{"moretrees:fir_planks",			"fir"},
 
-					{"hardenedclay:hardened_clay",				"hardened_clay"},
-					{"hardenedclay:hardened_clay_white",		"hardened_clay_white"},
-					{"hardenedclay:hardened_clay_black",		"hardened_clay_black"},
-					{"hardenedclay:hardened_clay_light_blue",	"hardened_clay_light_blue"},
-					{"hardenedclay:hardened_clay_green",		"hardened_clay_green"},
-					{"hardenedclay:hardened_clay_red",			"hardened_clay_red"},
-					{"hardenedclay:hardened_clay_light_grey",	"hardened_clay_light_grey"},
-					{"hardenedclay:hardened_clay_violet",		"hardened_clay_violet"},
-					{"hardenedclay:hardened_clay_lime",			"hardened_clay_lime"},
-					{"hardenedclay:hardened_clay_magenta",		"hardened_clay_magenta"},
-					{"hardenedclay:hardened_clay_orange",		"hardened_clay_orange"},
-					{"hardenedclay:hardened_clay_brown",		"hardened_clay_brown"},
-					{"hardenedclay:hardened_clay_blue",			"hardened_clay_blue"},
-					{"hardenedclay:hardened_clay_yellow",		"hardened_clay_yellow"},
-					{"hardenedclay:hardened_clay_pink",			"hardened_clay_pink"},
-					{"hardenedclay:hardened_clay_cyan",			"hardened_clay_cyan"},
-					{"hardenedclay:hardened_clay_grey",			"hardened_clay_grey"},
-
 					{"myores:slate",			"slate"},
 					{"myores:shale",			"shale"},
 					{"myores:schist",			"schist"},
@@ -360,6 +342,8 @@ minetest.register_node("mybricks:machine", {
 					{"myores:marble",			"marble"},
 					{"myores:chromium",			"chromium"},
 					{"myores:manganese",		"manganese"},
+					{"myores:quartz",			"quartz"},
+					{"myores:chalcopyrite",		"chalcopyrite"},
 				}
 
 			for i in ipairs (mat_tab) do
