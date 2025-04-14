@@ -344,6 +344,15 @@ minetest.register_node("mybricks:machine", {
 					{"myores:manganese",		"manganese"},
 					{"myores:quartz",			"quartz"},
 					{"myores:chalcopyrite",		"chalcopyrite"},
+					{"myores:cobalt",			"cobalt"},
+					{"myores:uvarovite",		"uvarovite"},
+					{"myores:selenite",			"selenite"},
+					{"myores:miserite",			"miserite"},
+					{"myores:limonite",			"limonite"},
+					{"myores:sulfur",			"sulfur"},
+					{"myores:lapis_lazuli",		"lapis_lazuli"},
+					{"myores:emerald",			"emerald"},
+					{"myores:amethyst",			"amethyst"},
 				}
 
 			for i in ipairs (mat_tab) do

@@ -96,3 +96,75 @@ mybricks.register_block(
 	"myores:quartz",
 	"normal"
 	)
+mybricks.register_block(
+	"cobalt", 
+	"Cobalt", 
+	"myores_cobalt.png",
+	{cracky = 1, oddly_breakable_by_hand = 1, not_in_creative_inventory=1},
+	"myores:cobalt",
+	"normal"
+	)
+mybricks.register_block(
+	"uvarovite", 
+	"Uvarovite", 
+	"myores_uvarovite.png",
+	{cracky = 1, oddly_breakable_by_hand = 1, not_in_creative_inventory=1},
+	"myores:uvarovite",
+	"normal"
+	)
+mybricks.register_block(
+	"selenite", 
+	"Selenite", 
+	"myores_selenite.png",
+	{cracky = 1, oddly_breakable_by_hand = 1, not_in_creative_inventory=1},
+	"myores:selenite",
+	"normal"
+	)
+mybricks.register_block(
+	"miserite", 
+	"Miserite", 
+	"myores_miserite.png",
+	{cracky = 1, oddly_breakable_by_hand = 1, not_in_creative_inventory=1},
+	"myores:miserite",
+	"normal"
+	)
+mybricks.register_block(
+	"limonite", 
+	"Limonite", 
+	"myores_limonite.png",
+	{cracky = 1, oddly_breakable_by_hand = 1, not_in_creative_inventory=1},
+	"myores:limonite",
+	"normal"
+	)
+mybricks.register_block(
+	"sulfur", 
+	"Sulfur", 
+	"myores_sulfur.png",
+	{cracky = 1, oddly_breakable_by_hand = 1, not_in_creative_inventory=1},
+	"myores:sulfur",
+	"normal"
+	)
+mybricks.register_block(
+	"lapis_lazuli", 
+	"Lapis Lazuli", 
+	"myores_lapis_lazuli.png",
+	{cracky = 1, oddly_breakable_by_hand = 1, not_in_creative_inventory=1},
+	"myores:lapis_lazuli",
+	"normal"
+	)
+mybricks.register_block(
+	"emerald", 
+	"Emerald", 
+	"myores_emerald.png",
+	{cracky = 1, oddly_breakable_by_hand = 1, not_in_creative_inventory=1},
+	"myores:emerald",
+	"normal"
+	)
+mybricks.register_block(
+	"amethyst", 
+	"Amethyst", 
+	"myores_amethyst.png",
+	{cracky = 1, oddly_breakable_by_hand = 1, not_in_creative_inventory=1},
+	"myores:amethyst",
+	"normal"
+	)
