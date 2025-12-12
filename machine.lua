@@ -6,30 +6,13 @@ local anzahl = {}
 core.register_node("mybricks:machine", {
 	description = "Brick Machine",
 	tiles = {
-		"mybricks_machine_top.png",
-		"mybricks_machine_top.png",
-		"mybricks_machine_side.png",
-		"mybricks_machine_side.png",
-		"mybricks_machine_side.png",
-		"mybricks_machine_side.png",
+		"mybricks_machine.png",
 		},
-	drawtype = "nodebox",
+	drawtype = "mesh",
+	mesh = "mybricks_machine.obj",
 	paramtype = "light",
 	paramtype2 = "facedir",
 	groups = {cracky=2},
-	node_box = {
-		type = "fixed",
-		fixed = {
-			{-0.5, 0.4375, -0.5, 0.5, 0.5, 0.5}, 
-			{0.375, -0.5, -0.5, 0.5, 0.5, -0.375}, 
-			{-0.5, -0.5, -0.5, -0.375, 0.5, -0.375},
-			{-0.5, -0.5, -0.5, 0.5, 0.0625, 0.5},
-			{-0.5, -0.5, 0.375, -0.375, 0.5, 0.5}, 
-			{0.375, -0.5, 0.375, 0.5, 0.5, 0.5}, 
-			{-0.0625, 0.0625, -0.25, 0, 0.1875, 0.25}, 
-			{-0.0625, 0.0625, -0.125, 0, 0.25, 0.125}, 
-		}
-	},
 	selection_box = {
 		type = "fixed",
 		fixed = {
