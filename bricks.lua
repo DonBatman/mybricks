@@ -247,23 +247,24 @@ core.register_node("mybricks:brick_vsplitw_"..mat, {
 	sounds = default.node_sound_stone_defaults(),
 })
 
-lucky_block:add_blocks({
-	{"dro", {"mybricks:brick_"..mat}, 50},
-	{"dro", {"mybricks:smbrick_"..mat}, 50},
-	{"dro", {"mybricks:tbrick_"..mat}, 50},
-	{"dro", {"mybricks:brick_square_"..mat}, 50},
-	{"dro", {"mybricks:brick_square_sm_"..mat}, 50},
-	{"dro", {"mybricks:brick_tile_"..mat}, 50},
-	{"dro", {"mybricks:brick_split_"..mat}, 50},
-	{"dro", {"mybricks:brick_vsplit_"..mat}, 50},
-	{"dro", {"mybricks:brickw_"..mat}, 50},
-	{"dro", {"mybricks:smbrickw_"..mat}, 50},
-	{"dro", {"mybricks:tbrickw_"..mat}, 50},
-	{"dro", {"mybricks:brick_squarew_"..mat}, 50},
-	{"dro", {"mybricks:brick_squarew_sm_"..mat}, 50},
-	{"dro", {"mybricks:brick_tilew_"..mat}, 50},
-	{"dro", {"mybricks:brick_splitw_"..mat}, 50},
-	{"dro", {"mybricks:brick_vsplitw_"..mat}, 50},
-})
-
+if core.get_modpath("lucky_block") then
+	lucky_block:add_blocks({
+		{"dro", {"mybricks:brick_"..mat}, 50},
+		{"dro", {"mybricks:smbrick_"..mat}, 50},
+		{"dro", {"mybricks:tbrick_"..mat}, 50},
+		{"dro", {"mybricks:brick_square_"..mat}, 50},
+		{"dro", {"mybricks:brick_square_sm_"..mat}, 50},
+		{"dro", {"mybricks:brick_tile_"..mat}, 50},
+		{"dro", {"mybricks:brick_split_"..mat}, 50},
+		{"dro", {"mybricks:brick_vsplit_"..mat}, 50},
+		{"dro", {"mybricks:brickw_"..mat}, 50},
+		{"dro", {"mybricks:smbrickw_"..mat}, 50},
+		{"dro", {"mybricks:tbrickw_"..mat}, 50},
+		{"dro", {"mybricks:brick_squarew_"..mat}, 50},
+		{"dro", {"mybricks:brick_squarew_sm_"..mat}, 50},
+		{"dro", {"mybricks:brick_tilew_"..mat}, 50},
+		{"dro", {"mybricks:brick_splitw_"..mat}, 50},
+		{"dro", {"mybricks:brick_vsplitw_"..mat}, 50},
+	})
+end
 end
